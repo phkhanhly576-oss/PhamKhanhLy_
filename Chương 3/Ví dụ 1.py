@@ -1,0 +1,8 @@
+obj1 = open("abcd.txt", "r")
+S1 = obj1.read()
+print(S1)
+obj1.close()
+obj2 = open("abcd.txt", "r")
+S2 = obj2.read()
+print(S2)
+obj2.close()
